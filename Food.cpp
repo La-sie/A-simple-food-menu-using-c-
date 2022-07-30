@@ -7,12 +7,12 @@ int meal;
 int mealQuantity;
 int drink;
 int drinkQuantity;
-double burger = 20;
-double polo = 25;
-double spaghetti = 30;
-double pesto = 35;
-double friedrice = 40;
-double prawns = 50;
+double burger = 20.00;
+double polo = 25.00;
+double spaghetti = 30.00;
+double pesto = 35.00;
+double friedrice = 40.00;
+double prawns = 50.00;
 
 cout << "\t\t ***Welcome to Reina Foods*** \t\t" <<endl;
 cout << "\t\t ~Meal~\t\t" << endl;
