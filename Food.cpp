@@ -29,7 +29,7 @@ cin >> meal;
 cout << "How many:" << endl;
 cin >> mealQuantity;
 
-cout << \t\t ~Drink~ \t\t <<endl;
+cout << "\t\t ~Drink~ \t\t" <<endl;
 
 cout << " (1) Purple Summer ---------- " << endl;
 cout << " (2) Passion Cup  ----------- " << endl;
