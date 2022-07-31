@@ -16,6 +16,12 @@ double friedrice = 40.00;
 double prawns = 50.00;
 double totalDrinks;
 double totalMeal;
+double totalBurger;
+double totalPolo;
+double totalPesto;
+double totalSpaghetti;
+double totalPrawns;
+double totalFried;
 
 system ("Color F3");
 
@@ -45,11 +51,32 @@ cin >> drink;
 cout << " How many : " << endl;
 cin >> drinkQuantity; 
 
+
 switch(meal) {
     case 1 :
+       cout << " (1) Beef Burger -------------" << " $" << totalBurger << endl;
+         totalBurger = burger * mealQuantity;
+         break;
     case 2 : 
+         cout << " (2) Penne Al Polo -----------" << " $" << totalPolo << endl;
+         totalPolo = polo * mealQuantity;
+         break;
     case 3 :
+         cout << " (3) Spaghetti Bolognaise ----" << " $" << totalSpaghetti << endl;
+         totalSpaghetti = spaghetti * mealQuantity;
+         break;
     case 4 :
+         cout << " (4) Prawns Pesto ------------" << " $" << totalPesto << endl;
+         totalPesto = pesto * mealQuantity;
+         break;
+    case 5 : 
+         cout << "(5) Assorted Friedrice ------" << " $" << totalFried << endl;
+         totalFried = friedrice * mealQuantity;
+         break;
+    case 6 : 
+         cout << " (6) Garlic Buttered Prawns---" << " $" << totalPrawns << endl;
+         totalPrawns = prawns * mealQuantity;
+         break;
 }
  
  
