@@ -45,9 +45,9 @@ cin >> mealQuantity;
 
 cout << "\t\t ~Drink~ \t\t" <<endl;
 
-cout << " (1) Purple Summer ---------- " << purpleSummer << endl;
-cout << " (2) Passion Cup  ----------- " << passionCup << endl;
-cout << " (3) Virgin Francisco ------- " << virgin << endl;
+cout << " (1) Purple Summer ---------- " << " $" << purpleSummer << endl;
+cout << " (2) Passion Cup  ----------- " << " $" << passionCup << endl;
+cout << " (3) Virgin Francisco ------- " << " $" << virgin << endl;
 
 cout << " Choose your drinks : " << endl;
 cin >> drink;
@@ -82,11 +82,16 @@ switch(meal) {
          break;
 }
  switch (drink) {
-         case 1
-         case 2
-         case 3
-         case 4
 
+         case 1 : 
+         cout << " (1) Purple Summer ---------- " << " $" << purpleSummer << endl;
+         break;
+
+         case 2 : 
+         break;
+
+         case 3 :      
+         break;
 }
  
 
