@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 
 int main () {
@@ -13,6 +14,8 @@ double spaghetti = 30.00;
 double pesto = 35.00;
 double friedrice = 40.00;
 double prawns = 50.00;
+
+system ("Color F3");
 
 cout << "\t\t ***Welcome to Reina Foods*** \t\t" <<endl;
 cout << "\t\t ~Meal~\t\t" << endl;
