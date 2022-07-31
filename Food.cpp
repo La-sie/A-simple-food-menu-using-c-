@@ -14,6 +14,9 @@ double spaghetti = 30.00;
 double pesto = 35.00;
 double friedrice = 40.00;
 double prawns = 50.00;
+double purpleSummer = 25.00;
+double passionCup = 25.00;
+double virgin = 25.00;
 double totalDrinks;
 double totalMeal;
 double totalBurger;
@@ -42,9 +45,9 @@ cin >> mealQuantity;
 
 cout << "\t\t ~Drink~ \t\t" <<endl;
 
-cout << " (1) Purple Summer ---------- " << endl;
-cout << " (2) Passion Cup  ----------- " << endl;
-cout << " (3) Virgin Francisco ------- " << endl;
+cout << " (1) Purple Summer ---------- " << purpleSummer << endl;
+cout << " (2) Passion Cup  ----------- " << passionCup << endl;
+cout << " (3) Virgin Francisco ------- " << virgin << endl;
 
 cout << " Choose your drinks : " << endl;
 cin >> drink;
@@ -78,7 +81,13 @@ switch(meal) {
          totalPrawns = prawns * mealQuantity;
          break;
 }
- 
+ switch (drink) {
+         case 1
+         case 2
+         case 3
+         case 4
+
+}
  
 
 return 0;
