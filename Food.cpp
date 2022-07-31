@@ -44,6 +44,13 @@ cout << " Choose your drinks : " << endl;
 cin >> drink;
 cout << " How many : " << endl;
 cin >> drinkQuantity; 
+
+switch(meal) {
+    case 1 :
+    case 2 : 
+    case 3 :
+    case 4 :
+}
  
  
 
