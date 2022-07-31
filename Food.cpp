@@ -14,6 +14,8 @@ double spaghetti = 30.00;
 double pesto = 35.00;
 double friedrice = 40.00;
 double prawns = 50.00;
+double totalDrinks;
+double totalMeal;
 
 system ("Color F3");
 
