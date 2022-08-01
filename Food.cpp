@@ -92,9 +92,13 @@ switch(meal) {
          break;
 
          case 2 : 
+         cout << " (2) Passion Cup  ----------- " << " $" << totalCup << endl;
+         totalCup = passionCup * drinkQuantity;
          break;
 
-         case 3 :      
+         case 3 :     
+         cout << " (3) Virgin Francisco ------- " << " $" << totalFrancisco<< endl;
+         totalFrancisco = virgin * drinkQuantity;
          break;
 }
  
