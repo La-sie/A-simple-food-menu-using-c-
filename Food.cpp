@@ -25,6 +25,9 @@ double totalPesto;
 double totalSpaghetti;
 double totalPrawns;
 double totalFried;
+double totalSummer;
+double totalCup;
+double totalFrancisco;
 
 system ("Color F3");
 
@@ -84,7 +87,8 @@ switch(meal) {
  switch (drink) {
 
          case 1 : 
-         cout << " (1) Purple Summer ---------- " << " $" << purpleSummer << endl;
+         cout << " (1) Purple Summer ---------- " << " $" << totalSummer << endl;
+         totalSummer = purpleSummer * drinkQuantity;
          break;
 
          case 2 : 
