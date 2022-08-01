@@ -102,6 +102,6 @@ switch(meal) {
          break;
 }
  
- cout << " \t\t ----Thank you for ordering with us---- \t\t" << endl;
+ cout << " \n\t\t ----Thank you for ordering with us---- \t\t" << endl;
 return 0;
 }
