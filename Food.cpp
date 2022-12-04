@@ -31,7 +31,7 @@ double totalFrancisco;
 
 system ("Color F3");
 
-cout << "\t\t ***Welcome to Reina Foods*** \t\t" <<endl;
+cout << "\t\t **Welcome to Reina Foods** \t\t" <<endl;
 cout << "\t\t ~Meal~\t\t" << endl;
 
 cout << " (1) Beef Burger -------------" << " $" << burger << endl;
